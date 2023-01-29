@@ -110,7 +110,7 @@ aside{
 /* Links */
 
 .links ul{
-    list-style-type: square;
+    list-style-type: none;
     padding-left: 18px;
     margin: 0;
 }
@@ -118,6 +118,22 @@ aside{
 .links ul li{
     margin-bottom: 10px;
 }
+
+a:link, a:visited {
+    background-color: #ff8b4b;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  a:hover, a:active {
+    background-color: #ffd05f;
+    box-shadow: 2px 2px gray;
+  }
 
 /* Footer */
 
