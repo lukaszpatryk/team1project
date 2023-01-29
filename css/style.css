@@ -102,6 +102,8 @@ aside{
     flex-direction: column;
     background-color: #ffd05f;
     padding:1rem;
+    border-radius: 2px;
+    
     
 }
 
@@ -117,6 +119,7 @@ aside{
     /* margin: 0 10px 5px 0; */
     border: 5px solid #efffa6;
     outline: 5px solid #ff3f79;
+    transition: all 1s linear;
 }
 
 
