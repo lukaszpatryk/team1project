@@ -92,20 +92,52 @@ article img{
 aside{
     width: 30%;
     padding: 20px;
-    background-color: lightgray;
+    background-color: #efffa6;
     border-left: 1px dashed black;
 }
 
 .widget{
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd05f;
+    padding:1rem;
+    
+}
+
+.widget :hover{
+    border-radius: 10%;
+    opacity:70%;
 }
 
 .widget img{
-    float: left;
+    
+    /* float: left; */
     /* padding: 0 10px 5px 0; -alternatywne rozw w przypadku braku borderu */
-    margin: 0 10px 5px 0;
-    border: 5px solid red;
+    /* margin: 0 10px 5px 0; */
+    border: 5px solid #efffa6;
+    outline: 5px solid #ff3f79;
 }
+
+
+
+aside p{
+    text-align: center;
+}
+.about{
+    text-align: center;
+    color:#ff3f79;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.florem{
+    color:#ff3f79;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
 
 /* Links */
 
