@@ -1,46 +1,36 @@
 /* Reguły CSS */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap");
 
-/* Team11 - kolory WIOSNA:
-.color1 {color: #ff3f79;}
-.color2 {color: #ff8b4b;}
-.color3 {color: #ffd05f;}
-.color4 {color: #efffa6;} */
-
-
-
-
-*{
-    box-sizing: border-box;
-    /*poczytac jako homework */
+* {
+  box-sizing: border-box;
+  /*poczytac jako homework */
 }
 
 /* Body */
-body{
-    margin: 0;
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Container */
-#container{
-    max-width: 1000px;
-    border: 2px solid black;
-    margin: 0 auto;
-    border-radius: 5px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.877);
+#container {
+  max-width: 1000px;
+  border: 2px solid black;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.877);
 }
-
 
 /* Header */
 header {
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,8 +40,9 @@ header {
 }
 
 /* Brand */
-.brand a, .brand img{
-    display: block;
+.brand a,
+.brand img {
+  display: block;
 }
 .logo{
     height: 90px;
@@ -64,16 +55,17 @@ header {
 }
 
 /* Menu */
-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-nav ul li{
-    display: inline-block;
-    margin: 0 5px;
+nav ul li {
+  display: inline-block;
+  margin: 0 5px;
 }
+
 
 nav ul li a{
     color:black;
@@ -101,8 +93,8 @@ nav ul li a:hover{
 }
 
 /* Main */
-main{
-    display: flex;
+main {
+  display: flex;
 }
 
 /* Article */
@@ -173,14 +165,15 @@ aside p{
 
 /* Links */
 
+
 .links ul{
     list-style-type: none;
     padding-left: 18px;
     margin: 0;
 }
 
-.links ul li{
-    margin-bottom: 10px;
+.links ul li {
+  margin-bottom: 10px;
 }
 
 a:link, a:visited {
@@ -201,18 +194,41 @@ a:link, a:visited {
 
 /* Footer */
 
-footer{
-    background-color: #efffa6;;
-    border-top: 1px solid #efffa6;
+footer {
+  background-color: lightgray;
+  border-top: 1px solid black;
+  text-align: center;
+  padding: 25px 0;
 }
+
+footer p {
+  margin: 0;
+  text-shadow: 2px 2px darkgray;
+}
+
+.header_links {
+  color: #ff3f79;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.list_style {
+  list-style-type: circle;
+}
+
+.link_style {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link_style:hover {
+  color: #ff3f79;
+}
+
 .footer_title {
     font-size:24px;
     text-align: center;
-}
-
-footer p{
-    margin:0;
-    text-shadow: 2px 2px darkgray;
 }
 
 h1 {
