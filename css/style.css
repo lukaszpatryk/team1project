@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
 
+/* Team11 - kolory WIOSNA:
+.color1 {color: #ff3f79;}
+.color2 {color: #ff8b4b;}
+.color3 {color: #ffd05f;}
+.color4 {color: #efffa6;} */
+
+
+
+
 *{
     box-sizing: border-box;
     /*poczytac jako homework */
@@ -36,11 +45,22 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 15px;
+    text-transform: uppercase;
+    background-color: #dbffef;
 }
 
 /* Brand */
 .brand a, .brand img{
     display: block;
+}
+.logo{
+    height: 90px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+.logo:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
 }
 
 /* Menu */
@@ -61,14 +81,21 @@ nav ul li a{
     font-size: 18px;
     display: block;
     text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
 }
 
 nav ul li a:hover{
-    background-color: rgb(56, 213, 24);
+    background-color: #ff3f79;
     color: rgb(255, 255, 255,1);
 }
 
 /* Slider */
+.slider{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
 .slider img{
     display: block;
 }
@@ -82,35 +109,72 @@ main{
 article{
     width: 70%;
     padding: 30px;
+    text-align: justify;
 }
 
 article img{
     padding-right: 30px;
+    
 }
 
 /* Aside */
 aside{
     width: 30%;
     padding: 20px;
-    background-color: lightgray;
+    background-color: #efffa6;
     border-left: 1px dashed black;
 }
 
 .widget{
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd05f;
+    padding:1rem;
+    border-radius: 2px;
+    
+    
+}
+
+.widget :hover{
+    border-radius: 10%;
+    opacity:70%;
 }
 
 .widget img{
-    float: left;
+    
+    /* float: left; */
     /* padding: 0 10px 5px 0; -alternatywne rozw w przypadku braku borderu */
-    margin: 0 10px 5px 0;
-    border: 5px solid red;
+    /* margin: 0 10px 5px 0; */
+    border: 5px solid #efffa6;
+    outline: 5px solid #ff3f79;
+    transition: all 1s linear;
 }
+
+
+
+aside p{
+    text-align: center;
+}
+.about{
+    text-align: center;
+    color:#ff3f79;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.florem{
+    color:#ff3f79;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
 
 /* Links */
 
 .links ul{
-    list-style-type: square;
+    list-style-type: none;
     padding-left: 18px;
     margin: 0;
 }
@@ -118,6 +182,22 @@ aside{
 .links ul li{
     margin-bottom: 10px;
 }
+
+a:link, a:visited {
+    background-color: #ff8b4b;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  a:hover, a:active {
+    background-color: #ffd05f;
+    box-shadow: 2px 2px gray;
+  }
 
 /* Footer */
 
@@ -129,7 +209,16 @@ footer{
     font-size:24px;
     text-align: center;
 }
-.footer_list {
-    font-size:16px;
-    opacity:0.75;
+
+footer p{
+    margin:0;
+    text-shadow: 2px 2px darkgray;
+}
+
+h1 {
+    color: #ff3f79;
+}
+
+.orange {
+    color: #ff8b4b;
 }
