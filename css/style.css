@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
 
+/* Team11 - kolory WIOSNA:
+.color1 {color: #ff3f79;}
+.color2 {color: #ff8b4b;}
+.color3 {color: #ffd05f;}
+.color4 {color: #efffa6;} */
+
+
+
+
 *{
     box-sizing: border-box;
     /*poczytac jako homework */
@@ -100,10 +109,12 @@ main{
 article{
     width: 70%;
     padding: 30px;
+    text-align: justify;
 }
 
 article img{
     padding-right: 30px;
+    
 }
 
 /* Aside */
@@ -165,4 +176,12 @@ footer{
 footer p{
     margin:0;
     text-shadow: 2px 2px darkgray;
+}
+
+h1 {
+    color: #ff3f79;
+}
+
+.orange {
+    color: #ff8b4b;
 }
